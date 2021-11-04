@@ -1,9 +1,10 @@
 {
-  "private": true,
+  "name": "@hnktt/eslint-config-base",
   "version": "0.1.1",
+  "main": "src/index.js",
   "license": "MIT",
-  "scripts": {
-    "bootstrap": "lerna bootstrap"
+  "peerDependencies": {
+    "eslint": ">= 7"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.3.0",
@@ -14,12 +15,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-promise": "^5.1.1",
-    "eslint-plugin-react": "^7.26.1",
-    "lerna": "^4.0.0",
     "prettier": "^2.4.1",
     "typescript": "^4.4.4"
-  },
-  "workspaces": [
-    "packages/*"
-  ]
+  }
 }

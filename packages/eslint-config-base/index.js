@@ -1,10 +1,10 @@
 module.exports = {
-  extends: ["./rules/es6"].map(require.resolve),
+  extends: ["./rules/es6", "./rules/variables"].map(require.resolve),
   parser: "@typescript-eslint/parser",
   parserOptions: {
     project: "./tsconfig.json",
+    ecmaVersion: 13,
     sourceType: "module",
-    ecmaVersion: 8,
   },
   overrides: [
     {
@@ -15,5 +15,6 @@ module.exports = {
       },
     },
   ],
+  plugins: ["@typescript-eslint"],
   rules: {},
 };
