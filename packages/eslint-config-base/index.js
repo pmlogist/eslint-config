@@ -1,5 +1,10 @@
 module.exports = {
-  extends: ["./rules/es6", "./rules/variables"].map(require.resolve),
+  extends: [
+    "./rules/es6",
+    "./rules/base-practices",
+    "./rules/imports",
+    "./rules/variables",
+  ].map(require.resolve),
   parser: "@typescript-eslint/parser",
   parserOptions: {
     project: "./tsconfig.json",
