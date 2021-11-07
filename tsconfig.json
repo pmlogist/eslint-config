@@ -1,20 +1,9 @@
 {
+  "include": ["**/*", "**/.*"],
   "compilerOptions": {
-    "target": "esnext",
-    "lib": [
-      "esnext"
-    ],
+    "target": "es5",
+    "module": "commonjs",
     "strict": true,
-    "moduleResolution": "Node",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "emitDecoratorMetadata": true,
-    "importHelpers": true,
-    "skipLibCheck": true,
-    "sourceMap": true,
-    "noUnusedLocals": true
+    "esModuleInterop": true
   }
 }
