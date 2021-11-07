@@ -1,4 +1,4 @@
 node_modules
+
 yarn.lock
-.eslintrc
-.git
+package-lock.json

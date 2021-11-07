@@ -1,10 +1,6 @@
-## Personal ESLint (experimental)
+# Personal ESLint (experimental)
 
-### Rules
-Base (mostly backend work)
-
-### TODO
-React
-NextJS
-Vue
-NuxtJS
+## Rules
+base
+react
+nextjs
